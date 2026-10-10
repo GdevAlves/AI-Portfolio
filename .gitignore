@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+cache/**cache/**
+
+# Material de aula do professor, nao faz parte da entrega
+materiais_de_aula/
+
+# Plano de ensino, documento externo
+IA_I_planoDeEnsino.pdf
+
+# Cache bruto da API do PyPI, regeneravel com rede
+parte_II/data/pypi/

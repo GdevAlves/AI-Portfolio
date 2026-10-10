@@ -1,0 +1,220 @@
+{
+  "parametros": {
+    "semente": 42,
+    "n_execucoes": 5,
+    "limiares": {
+      "energia_alta": 0.66,
+      "energia_baixa": 0.33,
+      "valencia_alta": 0.6,
+      "valencia_baixa": 0.4,
+      "acustica": 0.5,
+      "dancavel": 0.65,
+      "andamento_rapido": 120.0,
+      "andamento_lento": 95.0,
+      "duracao_curta": 180.0,
+      "duracao_longa": 240.0
+    },
+    "alvos_numericos": {
+      "energia_alta": [
+        "energia",
+        0.8
+      ],
+      "energia_baixa": [
+        "energia",
+        0.3
+      ],
+      "valencia_alta": [
+        "valencia",
+        0.7
+      ],
+      "valencia_baixa": [
+        "valencia",
+        0.3
+      ],
+      "acustica": [
+        "acustica",
+        0.6
+      ],
+      "dancavel": [
+        "dancabilidade",
+        0.7
+      ],
+      "andamento_rapido": [
+        "andamento",
+        130.0
+      ],
+      "andamento_lento": [
+        "andamento",
+        85.0
+      ]
+    }
+  },
+  "cenarios": {
+    "Academia, 60 min, crescente": {
+      "fatos": [
+        "duracao_alvo(60)",
+        "humor(energico)",
+        "ocasiao(academia)",
+        "periodo(manha)"
+      ],
+      "duracao_alvo_min": 60.0,
+      "progressao": "crescente"
+    },
+    "Estudo, 45 min, constante": {
+      "fatos": [
+        "duracao_alvo(45)",
+        "humor(relaxado)",
+        "ocasiao(estudo)",
+        "periodo(noite)"
+      ],
+      "duracao_alvo_min": 45.0,
+      "progressao": "constante"
+    },
+    "Festa, 90 min, pico": {
+      "fatos": [
+        "duracao_alvo(90)",
+        "humor(alegre)",
+        "ocasiao(festa)",
+        "periodo(noite)"
+      ],
+      "duracao_alvo_min": 90.0,
+      "progressao": "pico"
+    }
+  },
+  "resultados": {
+    "Academia, 60 min, crescente": {
+      "cenario": "academia",
+      "regras_instanciadas": 813,
+      "regras_disparadas": 146,
+      "fatos_derivados": 146,
+      "exigencias": [
+        "energia_alta",
+        "andamento_rapido"
+      ],
+      "tempo_inferencia_s": 0.07503702000030898,
+      "playlist": [
+        "What I've Done - Unshatter Film Soundtrack - Live in São Paulo",
+        "Let It Happen",
+        "New Person, Same Old Mistakes",
+        "Só Hoje - Acústico",
+        "Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo",
+        "Sentimento - Ao vivo",
+        "The Catalyst - Unshatter Film Soundtrack - Live in São Paulo",
+        "Leave Out All The Rest - Unshatter Film Soundtrack - Live in São Paulo",
+        "Faint - Unshatter Film Soundtrack - Live in São Paulo",
+        "Heavy Is the Crown - Unshatter Film Soundtrack - Live in São Paulo",
+        "Heavy Is the Crown",
+        "Bleed It Out - Unshatter Film Soundtrack - Live in São Paulo",
+        "Freakin’ Out"
+      ],
+      "duracao": "59:14",
+      "explicacao": [
+        "atende(043TnILbwnO6PsRcNTZ6cP, andamento_rapido)  <- regra atende(What I've Done - Unshatt, andamento_rapido)",
+        "  exige(andamento_rapido)  <- regra R2_academia_andamento",
+        "    ocasiao(academia)  [fato fornecido]",
+        "  tem(andamento_rapido, 043TnILbwnO6PsRcNTZ6cP)  [fato fornecido]"
+      ],
+      "metricas": {
+        "cobertura_regras": 1.0,
+        "cobertura_gulosa": 0.9411764705882352,
+        "cobertura_aleatoria": 0.6935294117647058,
+        "distancia_regras": 0.12866784615384616,
+        "distancia_gulosa": 0.061304941176470576,
+        "distancia_aleatoria": 0.1791640974019608
+      }
+    },
+    "Estudo, 45 min, constante": {
+      "cenario": "estudo",
+      "regras_instanciadas": 813,
+      "regras_disparadas": 24,
+      "fatos_derivados": 24,
+      "exigencias": [
+        "acustica",
+        "valencia_baixa"
+      ],
+      "tempo_inferencia_s": 0.017348122000839794,
+      "playlist": [
+        "Disco",
+        "Making Love Out of Nothing at All",
+        "Let It Happen",
+        "Algo Parecido",
+        "Anjos (Pra quem tem fé) - Ao vivo",
+        "FUNK ABNORMAL - SLOWED",
+        "MONTAGEM DELÍRIO - Super Slowed",
+        "bedrott",
+        "The Perfect Girl",
+        "Silencio",
+        "HILUX X DODGE RAM",
+        "Patient Zero"
+      ],
+      "duracao": "44:28",
+      "explicacao": [
+        "atende(2Lumsra3kuU61wXkEKzKaK, acustica)  <- regra atende(Disco, acustica)",
+        "  exige(acustica)  <- regra R5_estudo_acustica",
+        "    ocasiao(estudo)  [fato fornecido]",
+        "  tem(acustica, 2Lumsra3kuU61wXkEKzKaK)  [fato fornecido]"
+      ],
+      "metricas": {
+        "cobertura_regras": 0.7708333333333334,
+        "cobertura_gulosa": 0.7250000000000001,
+        "cobertura_aleatoria": 0.1337912087912088,
+        "distancia_regras": 0.14075124393054658,
+        "distancia_gulosa": 0.11544258264739113,
+        "distancia_aleatoria": 0.32501773006647233
+      }
+    },
+    "Festa, 90 min, pico": {
+      "cenario": "festa",
+      "regras_instanciadas": 813,
+      "regras_disparadas": 138,
+      "fatos_derivados": 138,
+      "exigencias": [
+        "valencia_alta",
+        "dancavel",
+        "valencia_baixa",
+        "acustica"
+      ],
+      "tempo_inferencia_s": 0.05834203999984311,
+      "playlist": [
+        "new trick",
+        "Role Perfeito - Ao Vivo",
+        "The Fate of Ophelia",
+        "Body to Body",
+        "Leave Out All The Rest - Unshatter Film Soundtrack - Live in São Paulo",
+        "Texana 37",
+        "Algo Parecido",
+        "New Person, Same Old Mistakes",
+        "The Emptiness Machine",
+        "The Emptiness Machine",
+        "Making Love Out of Nothing at All",
+        "Freakin’ Out",
+        "Ama Um Maloqueiro",
+        "Eu Me Apaixonei",
+        "NORMAL",
+        "Até Quando - Ao Vivo",
+        "Mega Hair - Ao Vivo",
+        "Só Hoje - Acústico",
+        "Disco",
+        "Let It Happen",
+        "The Emptiness Machine - Unshatter Film Soundtrack - Live in São Paulo",
+        "Don't You (Forget About Me)",
+        "Nothing Else Matters - Remastered 2021"
+      ],
+      "duracao": "89:39",
+      "explicacao": [
+        "atende(5GKBPdWbW4RQtx9VkQ6xKO, valencia_alta)  <- regra atende(new trick, valencia_alta)",
+        "  exige(valencia_alta)  <- regra R4_festa_valencia",
+        "    ocasiao(festa)  [fato fornecido]",
+        "  tem(valencia_alta, 5GKBPdWbW4RQtx9VkQ6xKO)  [fato fornecido]"
+      ],
+      "metricas": {
+        "cobertura_regras": 0.657608695652174,
+        "cobertura_gulosa": 0.5227272727272727,
+        "cobertura_aleatoria": 0.4446923076923077,
+        "distancia_regras": 0.2073370678968044,
+        "distancia_gulosa": 0.14749651530509955,
+        "distancia_aleatoria": 0.2305231192021844
+      }
+    }
+  }
+}

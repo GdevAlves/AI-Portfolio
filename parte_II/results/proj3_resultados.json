@@ -1,0 +1,86 @@
+{
+  "perfil": {
+    "duracao_alvo_min": 15.0,
+    "energia": null,
+    "valencia": null,
+    "acustica": null,
+    "dancabilidade": null,
+    "andamento": null,
+    "progressao": "decrescente"
+  },
+  "parametros": {
+    "pesos": {
+      "compatibilidade": 0.3,
+      "duracao": 0.2,
+      "progressao": 0.25,
+      "transicoes": 0.15,
+      "diversidade": 0.1
+    },
+    "simulated_annealing": {
+      "temperatura_inicial": 0.5,
+      "taxa_resfriamento": 0.99,
+      "temperatura_minima": 0.001
+    },
+    "n_vizinhos": 20,
+    "n_execucoes": 5
+  },
+  "resultados": {
+    "aleatoria": {
+      "algoritmo": "aleatoria",
+      "media": 0.8043002579754848,
+      "desvio": 0.020971609256943448,
+      "min": 0.7776243468759744,
+      "max": 0.826412393321314,
+      "execucoes": 5,
+      "melhor_playlist": [
+        "Dias Melhores - Acústico",
+        "Enemy (with JID) - from the series Arcane League of Legends",
+        "Animal",
+        "Against All Odds (Take a Look at Me Now) - 2016 Remaster"
+      ]
+    },
+    "gulosa": {
+      "algoritmo": "gulosa",
+      "media": 0.8311141361872085,
+      "desvio": 0.0,
+      "min": 0.8311141361872085,
+      "max": 0.8311141361872085,
+      "execucoes": 5,
+      "melhor_playlist": [
+        "bedrott",
+        "Ama Um Maloqueiro",
+        "Throne",
+        "Don't You (Forget About Me)"
+      ]
+    },
+    "hill_climbing": {
+      "algoritmo": "hill_climbing",
+      "media": 0.9703169375241123,
+      "desvio": 0.01749794389082892,
+      "min": 0.9377789977592191,
+      "max": 0.9882845306016551,
+      "execucoes": 5,
+      "melhor_playlist": [
+        "Numb - Unshatter Film Soundtrack - Live in São Paulo",
+        "Heavy Is the Crown",
+        "Mega Hair - Ao Vivo",
+        "Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo",
+        "Enemy (with JID) - from the series Arcane League of Legends"
+      ]
+    },
+    "simulated_annealing": {
+      "algoritmo": "simulated_annealing",
+      "media": 0.9811983824216373,
+      "desvio": 0.004428792411417519,
+      "min": 0.9748413052087429,
+      "max": 0.986074511665731,
+      "execucoes": 5,
+      "melhor_playlist": [
+        "Lua Cheia",
+        "Animal",
+        "Hard Times",
+        "New Person, Same Old Mistakes"
+      ]
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "parametros": {
+    "pesos": {
+      "compatibilidade": 0.3,
+      "duracao": 0.2,
+      "progressao": 0.25,
+      "transicoes": 0.15,
+      "diversidade": 0.1
+    },
+    "algoritmo_genetico": {
+      "populacao": 100,
+      "taxa_crossover": 0.9,
+      "taxa_mutacao": 0.1,
+      "elite": 2,
+      "geracoes": 100,
+      "estagnacao": 30,
+      "torneio_k": 3
+    },
+    "n_execucoes": 5,
+    "semente": 42
+  },
+  "perfis": {
+    "30 min, alvos, crescente": {
+      "duracao_alvo_min": 30.0,
+      "energia": 0.7,
+      "valencia": 0.6,
+      "acustica": 0.3,
+      "dancabilidade": 0.7,
+      "andamento": 120.0,
+      "progressao": "crescente",
+      "n_faixas": 9
+    },
+    "60 min, alvos, pico": {
+      "duracao_alvo_min": 60.0,
+      "energia": 0.8,
+      "valencia": 0.5,
+      "acustica": 0.2,
+      "dancabilidade": 0.6,
+      "andamento": 110.0,
+      "progressao": "pico",
+      "n_faixas": 17
+    },
+    "15 min, so decrescente": {
+      "duracao_alvo_min": 15.0,
+      "energia": null,
+      "valencia": null,
+      "acustica": null,
+      "dancabilidade": null,
+      "andamento": null,
+      "progressao": "decrescente",
+      "n_faixas": 5
+    }
+  },
+  "resultados": {
+    "30 min, alvos, crescente": {
+      "aleatoria": {
+        "algoritmo": "aleatoria",
+        "media": 0.844591732275936,
+        "desvio": 0.018686701543590593,
+        "min": 0.8244769711621397,
+        "max": 0.8671384168912974,
+        "execucoes": 5,
+        "melhor_playlist": [
+          "Silencio",
+          "New Person, Same Old Mistakes",
+          "Sentimento - Ao vivo",
+          "The Unforgiven - Remastered 2021",
+          "Mega Hair - Ao Vivo",
+          "Só Hoje - Acústico",
+          "Enemy (with JID) - from the series Arcane League of Legends"
+        ],
+        "melhor_fitness": 0.8671384168912974
+      },
+      "gulosa": {
+        "algoritmo": "gulosa",
+        "media": 0.884139271213806,
+        "desvio": 0.0,
+        "min": 0.884139271213806,
+        "max": 0.884139271213806,
+        "execucoes": 5,
+        "melhor_playlist": [
+          "Against All Odds (Take a Look at Me Now) - 2016 Remaster",
+          "Notion",
+          "What I've Done - Unshatter Film Soundtrack - Live in São Paulo",
+          "Stress Relief",
+          "Anjos (Pra quem tem fé) - Ao vivo",
+          "Só Hoje - Acústico",
+          "Ama Um Maloqueiro"
+        ],
+        "melhor_fitness": 0.884139271213806
+      },
+      "genetico": {
+        "algoritmo": "genetico",
+        "media": 0.9291797484535215,
+        "desvio": 0.008167135421720014,
+        "min": 0.9152309420530151,
+        "max": 0.9374953055790044,
+        "execucoes": 5,
+        "melhor_playlist": [
+          "Against All Odds (Take a Look at Me Now) - 2016 Remaster",
+          "Silencio",
+          "The Less I Know The Better",
+          "Nicole Kidman",
+          "Só Hoje - Acústico",
+          "Texana 37",
+          "Aurora",
+          "The Resistance",
+          "Sal Grosso"
+        ],
+        "melhor_fitness": 0.9374953055790044
+      }
+    },
+    "60 min, alvos, pico": {
+      "aleatoria": {
+        "algoritmo": "aleatoria",
+        "media": 0.8164554725943116,
+        "desvio": 0.024375309334246278,
+        "min": 0.7870165190905037,
+        "max": 0.8515673752141661,
+        "execucoes": 5,
+        "melhor_playlist": [
+          "One More Hour",
+          "Não é Pressa, é Pressão",
+          "they don’t know ’bout us",
+          "Chlorine",
+          "MONTAGEM URANIUM - Slowed",
+          "Enter Sandman - Remastered 2021",
+          "Dias Melhores - Acústico",
+          "Feitiço",
+          "Enemy (with JID) - from the series Arcane League of Legends",
+          "SWIM",
+          "Texana 37",
+          "Body to Body",
+          "The Fate of Ophelia",
+          "Borderline",
+          "Silencio",
+          "Ama Um Maloqueiro",
+          "Não Me Cutuca"
+        ],
+        "melhor_fitness": 0.8515673752141661
+      },
+      "gulosa": {
+        "algoritmo": "gulosa",
+        "media": 0.8891805333676466,
+        "desvio": 0.0,
+        "min": 0.8891805333676466,
+        "max": 0.8891805333676466,
+        "execucoes": 5,
+        "melhor_playlist": [
+          "Against All Odds (Take a Look at Me Now) - 2016 Remaster",
+          "Notion",
+          "What I've Done - Unshatter Film Soundtrack - Live in São Paulo",
+          "Suor Pingado",
+          "The Less I Know The Better",
+          "One More Hour",
+          "Doomed",
+          "Só Hoje - Acústico",
+          "Sonho de Amor - Ao Vivo",
+          "Chlorine",
+          "Aurora",
+          "Numb - Unshatter Film Soundtrack - Live in São Paulo",
+          "Feitiço",
+          "BIRDS OF A FEATHER",
+          "MONTAGEM URANIUM - Slowed",
+          "Não Me Cutuca"
+        ],
+        "melhor_fitness": 0.8891805333676466
+      },
+      "genetico": {
+        "algoritmo": "genetico",
+        "media": 0.9373644398112445,
+        "desvio": 0.006155418391469166,
+        "min": 0.9279883245220283,
+        "max": 0.9455803946644239,
+        "execucoes": 5,
+        "melhor_playlist": [
+          "Anjos (Pra quem tem fé) - Ao vivo",
+          "Suor Pingado",
+          "Let It Happen",
+          "Nicole Kidman",
+          "Two Faced",
+          "Você Já Sabe",
+          "they don’t know ’bout us",
+          "Numb - Unshatter Film Soundtrack - Live in São Paulo",
+          "MONTAGEM URANIUM - Slowed",
+          "2.0",
+          "Faint - Unshatter Film Soundtrack - Live in São Paulo",
+          "Lua Cheia",
+          "Sonho de Amor - Ao Vivo",
+          "Meu Bem Querer - Ao Vivo",
+          "HILUX X DODGE RAM",
+          "The Emptiness Machine",
+          "What I've Done - Unshatter Film Soundtrack - Live in São Paulo"
+        ],
+        "melhor_fitness": 0.9455803946644239
+      }
+    },
+    "15 min, so decrescente": {
+      "aleatoria": {
+        "algoritmo": "aleatoria",
+        "media": 0.842086881609179,
+        "desvio": 0.044118500739989026,
+        "min": 0.7865530195354176,
+        "max": 0.9045652959962786,
+        "execucoes": 5,
+        "melhor_playlist": [
+          "Sal Grosso",
+          "BIRDS OF A FEATHER",
+          "There's Nothing Holdin' Me Back",
+          "Bleed It Out - Unshatter Film Soundtrack - Live in São Paulo"
+        ],
+        "melhor_fitness": 0.9045652959962786
+      },
+      "gulosa": {
+        "algoritmo": "gulosa",
+        "media": 0.9404556384168322,
+        "desvio": 0.0,
+        "min": 0.9404556384168322,
+        "max": 0.9404556384168322,
+        "execucoes": 5,
+        "melhor_playlist": [
+          "Hooligan",
+          "Um Peão Desse",
+          "There's Nothing Holdin' Me Back",
+          "HILUX X DODGE RAM",
+          "Seventh Heaven"
+        ],
+        "melhor_fitness": 0.9404556384168322
+      },
+      "genetico": {
+        "algoritmo": "genetico",
+        "media": 0.9840743057320347,
+        "desvio": 0.004983265304802743,
+        "min": 0.9752638593448889,
+        "max": 0.9890832939870638,
+        "execucoes": 5,
+        "melhor_playlist": [
+          "Não é Pressa, é Pressão",
+          "Hard Times",
+          "Algo Parecido",
+          "Enemy (with JID) - from the series Arcane League of Legends",
+          "Silencio"
+        ],
+        "melhor_fitness": 0.9890832939870638
+      }
+    }
+  },
+  "varreduras": {
+    "populacao": [
+      {
+        "populacao": 20,
+        "perfis": {
+          "30 min, alvos, crescente": 0.9325074086052457,
+          "60 min, alvos, pico": 0.9249415060544948,
+          "15 min, so decrescente": 0.9768345443420752
+        },
+        "media_geral": 0.9447611530006053
+      },
+      {
+        "populacao": 50,
+        "perfis": {
+          "30 min, alvos, crescente": 0.9393093728892867,
+          "60 min, alvos, pico": 0.9279304408508312,
+          "15 min, so decrescente": 0.9849051860167378
+        },
+        "media_geral": 0.9507149999189519
+      },
+      {
+        "populacao": 100,
+        "perfis": {
+          "30 min, alvos, crescente": 0.9382755125732712,
+          "60 min, alvos, pico": 0.9366152812443825,
+          "15 min, so decrescente": 0.9859261971572555
+        },
+        "media_geral": 0.9536056636583031
+      },
+      {
+        "populacao": 200,
+        "perfis": {
+          "30 min, alvos, crescente": 0.9414097716751387,
+          "60 min, alvos, pico": 0.9379136462363201,
+          "15 min, so decrescente": 0.9863622622784021
+        },
+        "media_geral": 0.9552285600632869
+      }
+    ],
+    "mutacao": [
+      {
+        "taxa_mutacao": 0.01,
+        "perfis": {
+          "30 min, alvos, crescente": 0.9306635646118352,
+          "60 min, alvos, pico": 0.9293255550200779,
+          "15 min, so decrescente": 0.9733567256049513
+        },
+        "media_geral": 0.9444486150789548
+      },
+      {
+        "taxa_mutacao": 0.05,
+        "perfis": {
+          "30 min, alvos, crescente": 0.936463179946945,
+          "60 min, alvos, pico": 0.9297525038328155,
+          "15 min, so decrescente": 0.9831907850073935
+        },
+        "media_geral": 0.9498021562623846
+      },
+      {
+        "taxa_mutacao": 0.1,
+        "perfis": {
+          "30 min, alvos, crescente": 0.9375590151737706,
+          "60 min, alvos, pico": 0.9279931029034095,
+          "15 min, so decrescente": 0.9868576334174527
+        },
+        "media_geral": 0.9508032504982109
+      },
+      {
+        "taxa_mutacao": 0.2,
+        "perfis": {
+          "30 min, alvos, crescente": 0.9403698174220905,
+          "60 min, alvos, pico": 0.9326311049134443,
+          "15 min, so decrescente": 0.9858334404870451
+        },
+        "media_geral": 0.9529447876075267
+      }
+    ]
+  }
+}

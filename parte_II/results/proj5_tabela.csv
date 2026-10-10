@@ -1,0 +1,11 @@
+cenario,variante,completo,infactivel,nos,atribuicoes,retornos,podas,tempo
+A_institucional,backtracking puro,True,False,305,304,30548,0,0.2182
+A_institucional,MRV,True,False,305,304,32420,0,0.4561
+A_institucional,MRV+LCV,True,False,305,304,32420,0,0.8117
+A_institucional,MRV+LCV+FC,True,False,305,304,19935,13805,0.7235
+A_institucional,MRV+LCV+MAC,True,False,305,304,7850,11047,0.7209
+B_disciplina,backtracking puro,True,False,305,304,37359,0,0.2711
+B_disciplina,MRV,True,False,305,304,38972,0,0.5774
+B_disciplina,MRV+LCV,True,False,305,304,38972,0,1.4198
+B_disciplina,MRV+LCV+FC,True,False,305,304,8989,32392,1.1209
+B_disciplina,MRV+LCV+MAC,True,False,305,304,4914,25037,1.0449

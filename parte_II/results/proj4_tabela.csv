@@ -1,0 +1,10 @@
+perfil,algoritmo,media,desvio,min,max
+"30 min, alvos, crescente",aleatoria,0.8446,0.0187,0.8245,0.8671
+"30 min, alvos, crescente",gulosa,0.8841,0.0000,0.8841,0.8841
+"30 min, alvos, crescente",genetico,0.9292,0.0082,0.9152,0.9375
+"60 min, alvos, pico",aleatoria,0.8165,0.0244,0.7870,0.8516
+"60 min, alvos, pico",gulosa,0.8892,0.0000,0.8892,0.8892
+"60 min, alvos, pico",genetico,0.9374,0.0062,0.9280,0.9456
+"15 min, so decrescente",aleatoria,0.8421,0.0441,0.7866,0.9046
+"15 min, so decrescente",gulosa,0.9405,0.0000,0.9405,0.9405
+"15 min, so decrescente",genetico,0.9841,0.0050,0.9753,0.9891

@@ -1,0 +1,5 @@
+algoritmo,media,desvio,min,max
+aleatoria,0.8043,0.0210,0.7776,0.8264
+gulosa,0.8311,0.0000,0.8311,0.8311
+hill_climbing,0.9703,0.0175,0.9378,0.9883
+simulated_annealing,0.9812,0.0044,0.9748,0.9861

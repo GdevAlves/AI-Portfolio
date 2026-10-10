@@ -1,0 +1,6 @@
+raiz,pacotes,arestas,ondas_minimas,nivel_bfs,ciclos
+jupyterlab,80,139,10,6,0
+notebook,81,145,11,6,0
+gradio,52,86,7,5,0
+poetry,40,51,6,6,0
+fastapi,11,17,4,4,0

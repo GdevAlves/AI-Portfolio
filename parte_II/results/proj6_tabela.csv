@@ -1,0 +1,10 @@
+cenario,algoritmo,cobertura,distancia_alvo,tempo_inferencia_s
+"Academia, 60 min, crescente",regras,1.0000,0.1287,0.0750
+"Academia, 60 min, crescente",gulosa,0.9412,0.0613,
+"Academia, 60 min, crescente",aleatoria,0.6935,0.1792,
+"Estudo, 45 min, constante",regras,0.7708,0.1408,0.0173
+"Estudo, 45 min, constante",gulosa,0.7250,0.1154,
+"Estudo, 45 min, constante",aleatoria,0.1338,0.3250,
+"Festa, 90 min, pico",regras,0.6576,0.2073,0.0583
+"Festa, 90 min, pico",gulosa,0.5227,0.1475,
+"Festa, 90 min, pico",aleatoria,0.4447,0.2305,

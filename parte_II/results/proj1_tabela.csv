@@ -1,0 +1,8 @@
+algoritmo,custo_s,comprimento_m,profundidade,nos_expandidos,nos_expandidos_relativo,fronteira_max,tempo_s,gap_sobre_otimo_pct
+Dijkstra,528.893,7188.4,261,8551,1.0000,108,0.03782,0.0000
+A* (h geometrica),528.893,7188.4,261,7689,0.8992,125,0.04236,0.0000
+A* (h* perfeita),528.893,7188.4,261,261,0.0305,113,0.00115,0.0000
+Greedy Best-First,732.812,8989.4,317,981,0.1147,120,0.00433,38.5558
+A* ponderado (W=1.5),528.893,7188.4,261,5425,0.6344,168,0.02248,0.0000
+A* ponderado (W=2),532.461,7247.9,269,2065,0.2415,151,0.00762,0.6745
+A* ponderado (W=3),532.461,7247.9,269,1149,0.1344,131,0.00400,0.6745

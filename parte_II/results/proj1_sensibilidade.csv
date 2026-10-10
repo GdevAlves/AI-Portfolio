@@ -1,0 +1,4 @@
+cenario,raio_aerodromo_m,raio_hospital_m,viavel,arestas_removidas_pct,nos,arestas,distancia_reta_m,custo_otimo_s,dijkstra_expandidos,astar_expandidos,reducao_expandidos_pct
+permissivo,400,150,True,12.53,9659,10629,4917.5,528.89,9652,8839,8.42
+adotado,600,200,True,22.27,8555,9404,4917.5,528.89,8551,7689,10.08
+restritivo,900,350,True,44.66,2429,2626,2340.2,208.19,2025,506,75.01

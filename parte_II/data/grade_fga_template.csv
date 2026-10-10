@@ -1,0 +1,5 @@
+codigo_disciplina,nome_disciplina,turma,professor,vagas,horarios_sigaa,periodo_fluxo
+FGA0101,REQUISITOS DE SOFTWARE,A,John Lenon Cardoso Gardenghi,45,2M34 4M34,4
+FGA0101,REQUISITOS DE SOFTWARE,B,Renato Coral Sampaio,45,3T12 5T12,4
+FGA0102,METODOS DE DESENVOLVIMENTO DE SOFTWARE,A,Carla Silva Rocha Aguiar,45,2M12 4M12,3
+FGA0102,METODOS DE DESENVOLVIMENTO DE SOFTWARE,B,Edna Dias Canedo,45,3M34 5M34,3

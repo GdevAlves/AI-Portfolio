@@ -1,0 +1,637 @@
+{
+  "raiz_principal": "jupyterlab",
+  "pacotes": 80,
+  "arestas": 139,
+  "ondas_minimas": 10,
+  "resultados": [
+    {
+      "raiz": "jupyterlab",
+      "algoritmo": "BFS",
+      "fecho": "{'matplotlib-inline', 'beautifulsoup4', 'urllib3', 'jedi', 'httpx', 'idna', 'jupyter-builder', 'jupyter-lsp', 'attrs', 'jupyterlab', 'pycparser', 'cffi', 'markupsafe', 'nest-asyncio2', 'python-dateutil', 'certifi', 'defusedxml', 'traitlets', 'soupsieve', 'tornado', 'send2trash', 'httpcore', 'asttokens', 'argon2-cffi', 'jupyter-client', 'ipykernel', 'prompt-toolkit', 'rfc3986-validator', 'pure-eval', 'nbclient', 'comm', 'argon2-cffi-bindings', 'json5', 'ipython-pygments-lexers', 'executing', 'h11', 'pyyaml', 'jupyter-server-terminals', 'packaging', 'jinja2', 'jsonschema-specifications', 'wcwidth', 'ptyprocess', 'ipython', 'fastjsonschema', 'nbformat', 'pandocfilters', 'babel', 'jupyter-server', 'psutil', 'rfc3339-validator', 'jupyter-events', 'bleach', 'webencodings', 'prometheus-client', 'nbconvert', 'jupyterlab-server', 'python-json-logger', 'six', 'platformdirs', 'charset-normalizer', 'notebook-shim', 'pexpect', 'pygments', 'anyio', 'parso', 'mistune', 'referencing', 'jsonschema', 'pyzmq', 'jupyterlab-pygments', 'websocket-client', 'rpds-py', 'debugpy', 'terminado', 'requests', 'async-lru', 'typing-extensions', 'jupyter-core', 'stack-data'}",
+      "nivel_max": 6,
+      "profundidade_busca": 6,
+      "fronteira_pico": 32,
+      "consultas": 80,
+      "ciclos": [],
+      "tempo_s": 0.0011315110004943563,
+      "ordem_valida": true,
+      "ondas": 10,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "jupyterlab",
+      "algoritmo": "DFS",
+      "fecho": "{'matplotlib-inline', 'beautifulsoup4', 'urllib3', 'jedi', 'httpx', 'idna', 'jupyter-builder', 'jupyter-lsp', 'attrs', 'jupyterlab', 'pycparser', 'cffi', 'markupsafe', 'python-dateutil', 'nest-asyncio2', 'certifi', 'defusedxml', 'traitlets', 'soupsieve', 'tornado', 'asttokens', 'httpcore', 'send2trash', 'argon2-cffi', 'jupyter-client', 'ipykernel', 'prompt-toolkit', 'pure-eval', 'rfc3986-validator', 'nbclient', 'comm', 'argon2-cffi-bindings', 'json5', 'ipython-pygments-lexers', 'executing', 'h11', 'pyyaml', 'jupyter-server-terminals', 'packaging', 'jinja2', 'jsonschema-specifications', 'wcwidth', 'ptyprocess', 'ipython', 'fastjsonschema', 'nbformat', 'pandocfilters', 'rfc3339-validator', 'psutil', 'jupyter-server', 'bleach', 'jupyter-events', 'babel', 'webencodings', 'prometheus-client', 'nbconvert', 'jupyterlab-server', 'python-json-logger', 'six', 'platformdirs', 'charset-normalizer', 'notebook-shim', 'pexpect', 'pygments', 'anyio', 'parso', 'mistune', 'referencing', 'jsonschema', 'pyzmq', 'jupyterlab-pygments', 'websocket-client', 'rpds-py', 'debugpy', 'terminado', 'requests', 'async-lru', 'typing-extensions', 'jupyter-core', 'stack-data'}",
+      "nivel_max": null,
+      "profundidade_busca": 8,
+      "fronteira_pico": 8,
+      "consultas": 80,
+      "ciclos": [],
+      "tempo_s": 0.00018192300012742635,
+      "ordem_valida": true,
+      "ondas": 10,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "jupyterlab",
+      "algoritmo": "IDDFS",
+      "fecho": "{'urllib3', 'jupyter-builder', 'attrs', 'markupsafe', 'nest-asyncio2', 'defusedxml', 'traitlets', 'soupsieve', 'asttokens', 'httpcore', 'rfc3986-validator', 'prompt-toolkit', 'comm', 'json5', 'ipython-pygments-lexers', 'jupyter-server-terminals', 'jinja2', 'ipython', 'babel', 'jupyter-server', 'rfc3339-validator', 'jupyter-events', 'webencodings', 'nbconvert', 'jupyterlab-server', 'python-json-logger', 'six', 'platformdirs', 'notebook-shim', 'pygments', 'mistune', 'referencing', 'jsonschema', 'rpds-py', 'debugpy', 'terminado', 'requests', 'async-lru', 'matplotlib-inline', 'beautifulsoup4', 'jedi', 'httpx', 'idna', 'jupyter-lsp', 'jupyterlab', 'pycparser', 'cffi', 'python-dateutil', 'certifi', 'tornado', 'send2trash', 'argon2-cffi', 'jupyter-client', 'ipykernel', 'pure-eval', 'nbclient', 'argon2-cffi-bindings', 'executing', 'h11', 'pyyaml', 'packaging', 'jsonschema-specifications', 'wcwidth', 'ptyprocess', 'fastjsonschema', 'nbformat', 'pandocfilters', 'bleach', 'psutil', 'prometheus-client', 'charset-normalizer', 'pexpect', 'anyio', 'parso', 'pyzmq', 'jupyterlab-pygments', 'websocket-client', 'typing-extensions', 'jupyter-core', 'stack-data'}",
+      "nivel_max": 10,
+      "profundidade_busca": 10,
+      "fronteira_pico": 10,
+      "consultas": 80,
+      "ciclos": [],
+      "tempo_s": 0.0044688580001093214,
+      "iteracoes": 10,
+      "historico": [
+        {
+          "limite": 1,
+          "cabe": false,
+          "nivel_max": 10
+        },
+        {
+          "limite": 2,
+          "cabe": false,
+          "nivel_max": 10
+        },
+        {
+          "limite": 3,
+          "cabe": false,
+          "nivel_max": 10
+        },
+        {
+          "limite": 4,
+          "cabe": false,
+          "nivel_max": 10
+        },
+        {
+          "limite": 5,
+          "cabe": false,
+          "nivel_max": 10
+        },
+        {
+          "limite": 6,
+          "cabe": false,
+          "nivel_max": 10
+        },
+        {
+          "limite": 7,
+          "cabe": false,
+          "nivel_max": 10
+        },
+        {
+          "limite": 8,
+          "cabe": false,
+          "nivel_max": 10
+        },
+        {
+          "limite": 9,
+          "cabe": false,
+          "nivel_max": 10
+        },
+        {
+          "limite": 10,
+          "cabe": true,
+          "nivel_max": 10
+        }
+      ],
+      "ordem_valida": true,
+      "ondas": 10,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "jupyterlab",
+      "algoritmo": "UCS",
+      "fecho": "set()",
+      "nivel_max": null,
+      "profundidade_busca": null,
+      "fronteira_pico": 961048,
+      "consultas": null,
+      "estados_expandidos": 200001,
+      "orcamento": 200000,
+      "orcamento_estourado": true,
+      "estados_teoricos": 1208925819614629174706176,
+      "ciclos": [],
+      "tempo_s": 14.763410599000053,
+      "ordem_valida": false,
+      "ondas": null,
+      "fecho_completo": false
+    },
+    {
+      "raiz": "notebook",
+      "algoritmo": "BFS",
+      "fecho": "{'matplotlib-inline', 'beautifulsoup4', 'urllib3', 'jedi', 'httpx', 'idna', 'jupyter-builder', 'jupyter-lsp', 'attrs', 'jupyterlab', 'pycparser', 'cffi', 'markupsafe', 'python-dateutil', 'nest-asyncio2', 'defusedxml', 'certifi', 'traitlets', 'soupsieve', 'tornado', 'send2trash', 'httpcore', 'asttokens', 'argon2-cffi', 'jupyter-client', 'ipykernel', 'rfc3986-validator', 'prompt-toolkit', 'pure-eval', 'nbclient', 'notebook', 'comm', 'argon2-cffi-bindings', 'json5', 'ipython-pygments-lexers', 'executing', 'h11', 'pyyaml', 'jupyter-server-terminals', 'packaging', 'jinja2', 'jsonschema-specifications', 'wcwidth', 'ptyprocess', 'ipython', 'fastjsonschema', 'nbformat', 'pandocfilters', 'babel', 'jupyter-server', 'rfc3339-validator', 'bleach', 'jupyter-events', 'psutil', 'webencodings', 'prometheus-client', 'nbconvert', 'jupyterlab-server', 'python-json-logger', 'six', 'platformdirs', 'charset-normalizer', 'notebook-shim', 'pexpect', 'pygments', 'anyio', 'parso', 'mistune', 'referencing', 'jsonschema', 'pyzmq', 'jupyterlab-pygments', 'websocket-client', 'rpds-py', 'debugpy', 'terminado', 'requests', 'async-lru', 'typing-extensions', 'jupyter-core', 'stack-data'}",
+      "nivel_max": 6,
+      "profundidade_busca": 6,
+      "fronteira_pico": 34,
+      "consultas": 81,
+      "ciclos": [],
+      "tempo_s": 0.001544623000881984,
+      "ordem_valida": true,
+      "ondas": 11,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "notebook",
+      "algoritmo": "DFS",
+      "fecho": "{'matplotlib-inline', 'beautifulsoup4', 'urllib3', 'jedi', 'httpx', 'idna', 'jupyter-builder', 'attrs', 'jupyter-lsp', 'jupyterlab', 'pycparser', 'cffi', 'markupsafe', 'python-dateutil', 'nest-asyncio2', 'defusedxml', 'certifi', 'traitlets', 'soupsieve', 'tornado', 'send2trash', 'httpcore', 'asttokens', 'argon2-cffi', 'jupyter-client', 'ipykernel', 'rfc3986-validator', 'prompt-toolkit', 'pure-eval', 'nbclient', 'notebook', 'comm', 'argon2-cffi-bindings', 'json5', 'ipython-pygments-lexers', 'executing', 'h11', 'pyyaml', 'jupyter-server-terminals', 'packaging', 'jinja2', 'jsonschema-specifications', 'wcwidth', 'ptyprocess', 'ipython', 'fastjsonschema', 'nbformat', 'pandocfilters', 'rfc3339-validator', 'jupyter-server', 'bleach', 'psutil', 'jupyter-events', 'babel', 'webencodings', 'prometheus-client', 'nbconvert', 'jupyterlab-server', 'python-json-logger', 'six', 'platformdirs', 'charset-normalizer', 'notebook-shim', 'pexpect', 'pygments', 'anyio', 'parso', 'mistune', 'referencing', 'jsonschema', 'pyzmq', 'jupyterlab-pygments', 'websocket-client', 'rpds-py', 'debugpy', 'terminado', 'requests', 'typing-extensions', 'async-lru', 'jupyter-core', 'stack-data'}",
+      "nivel_max": null,
+      "profundidade_busca": 7,
+      "fronteira_pico": 7,
+      "consultas": 81,
+      "ciclos": [],
+      "tempo_s": 0.00017799499983084388,
+      "ordem_valida": true,
+      "ondas": 11,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "notebook",
+      "algoritmo": "IDDFS",
+      "fecho": "{'urllib3', 'jupyter-builder', 'attrs', 'markupsafe', 'nest-asyncio2', 'defusedxml', 'traitlets', 'soupsieve', 'asttokens', 'httpcore', 'prompt-toolkit', 'rfc3986-validator', 'notebook', 'comm', 'json5', 'ipython-pygments-lexers', 'jupyter-server-terminals', 'jinja2', 'ipython', 'babel', 'jupyter-server', 'rfc3339-validator', 'jupyter-events', 'webencodings', 'nbconvert', 'jupyterlab-server', 'python-json-logger', 'six', 'platformdirs', 'notebook-shim', 'pygments', 'mistune', 'referencing', 'jsonschema', 'rpds-py', 'debugpy', 'terminado', 'requests', 'async-lru', 'matplotlib-inline', 'beautifulsoup4', 'jedi', 'httpx', 'idna', 'jupyter-lsp', 'jupyterlab', 'pycparser', 'cffi', 'python-dateutil', 'certifi', 'tornado', 'send2trash', 'argon2-cffi', 'jupyter-client', 'ipykernel', 'pure-eval', 'nbclient', 'argon2-cffi-bindings', 'executing', 'h11', 'pyyaml', 'packaging', 'jsonschema-specifications', 'wcwidth', 'ptyprocess', 'fastjsonschema', 'nbformat', 'pandocfilters', 'bleach', 'psutil', 'prometheus-client', 'charset-normalizer', 'pexpect', 'anyio', 'parso', 'pyzmq', 'jupyterlab-pygments', 'websocket-client', 'typing-extensions', 'jupyter-core', 'stack-data'}",
+      "nivel_max": 11,
+      "profundidade_busca": 11,
+      "fronteira_pico": 11,
+      "consultas": 81,
+      "ciclos": [],
+      "tempo_s": 0.00662510599977395,
+      "iteracoes": 11,
+      "historico": [
+        {
+          "limite": 1,
+          "cabe": false,
+          "nivel_max": 11
+        },
+        {
+          "limite": 2,
+          "cabe": false,
+          "nivel_max": 11
+        },
+        {
+          "limite": 3,
+          "cabe": false,
+          "nivel_max": 11
+        },
+        {
+          "limite": 4,
+          "cabe": false,
+          "nivel_max": 11
+        },
+        {
+          "limite": 5,
+          "cabe": false,
+          "nivel_max": 11
+        },
+        {
+          "limite": 6,
+          "cabe": false,
+          "nivel_max": 11
+        },
+        {
+          "limite": 7,
+          "cabe": false,
+          "nivel_max": 11
+        },
+        {
+          "limite": 8,
+          "cabe": false,
+          "nivel_max": 11
+        },
+        {
+          "limite": 9,
+          "cabe": false,
+          "nivel_max": 11
+        },
+        {
+          "limite": 10,
+          "cabe": false,
+          "nivel_max": 11
+        },
+        {
+          "limite": 11,
+          "cabe": true,
+          "nivel_max": 11
+        }
+      ],
+      "ordem_valida": true,
+      "ondas": 11,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "notebook",
+      "algoritmo": "UCS",
+      "fecho": "set()",
+      "nivel_max": null,
+      "profundidade_busca": null,
+      "fronteira_pico": 904851,
+      "consultas": null,
+      "estados_expandidos": 200001,
+      "orcamento": 200000,
+      "orcamento_estourado": true,
+      "estados_teoricos": 2417851639229258349412352,
+      "ciclos": [],
+      "tempo_s": 13.432412672998908,
+      "ordem_valida": false,
+      "ondas": null,
+      "fecho_completo": false
+    },
+    {
+      "raiz": "gradio",
+      "algoritmo": "BFS",
+      "fecho": "{'safehttpx', 'httpcore2', 'httpx', 'semantic-version', 'h11', 'idna', 'groovy', 'pytz', 'pyyaml', 'packaging', 'jinja2', 'pydantic', 'uvicorn', 'pydantic-core', 'tomlkit', 'python-multipart', 'annotated-doc', 'typing-inspection', 'annotated-types', 'rich', 'markupsafe', 'python-dateutil', 'orjson', 'certifi', 'hf-gradio', 'opentelemetry-api', 'mdurl', 'hf-xet', 'huggingface-hub', 'gradio', 'brotli', 'tqdm', 'six', 'shellingham', 'typer', 'pygments', 'anyio', 'numpy', 'httpcore', 'pydub', 'gradio-client', 'fsspec', 'pandas', 'fastapi', 'click', 'filelock', 'starlette', 'httpx2', 'markdown-it-py', 'pillow', 'typing-extensions', 'truststore'}",
+      "nivel_max": 5,
+      "profundidade_busca": 5,
+      "fronteira_pico": 31,
+      "consultas": 52,
+      "ciclos": [],
+      "tempo_s": 0.0007741790013824357,
+      "ordem_valida": true,
+      "ondas": 7,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "gradio",
+      "algoritmo": "DFS",
+      "fecho": "{'safehttpx', 'httpcore2', 'httpx', 'semantic-version', 'h11', 'idna', 'pyyaml', 'groovy', 'pytz', 'packaging', 'jinja2', 'pydantic', 'uvicorn', 'pydantic-core', 'tomlkit', 'python-multipart', 'annotated-doc', 'typing-inspection', 'annotated-types', 'rich', 'markupsafe', 'python-dateutil', 'orjson', 'certifi', 'hf-gradio', 'opentelemetry-api', 'mdurl', 'hf-xet', 'huggingface-hub', 'gradio', 'brotli', 'tqdm', 'six', 'shellingham', 'typer', 'pygments', 'anyio', 'numpy', 'httpcore', 'pydub', 'gradio-client', 'fsspec', 'pandas', 'fastapi', 'click', 'filelock', 'starlette', 'httpx2', 'markdown-it-py', 'pillow', 'typing-extensions', 'truststore'}",
+      "nivel_max": null,
+      "profundidade_busca": 6,
+      "fronteira_pico": 6,
+      "consultas": 52,
+      "ciclos": [],
+      "tempo_s": 0.00010876800115511287,
+      "ordem_valida": true,
+      "ondas": 7,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "gradio",
+      "algoritmo": "IDDFS",
+      "fecho": "{'safehttpx', 'httpcore2', 'httpx', 'semantic-version', 'h11', 'idna', 'groovy', 'pytz', 'pyyaml', 'packaging', 'jinja2', 'pydantic', 'uvicorn', 'pydantic-core', 'tomlkit', 'python-multipart', 'annotated-doc', 'rich', 'annotated-types', 'typing-inspection', 'markupsafe', 'python-dateutil', 'orjson', 'certifi', 'hf-gradio', 'mdurl', 'opentelemetry-api', 'hf-xet', 'huggingface-hub', 'gradio', 'brotli', 'six', 'tqdm', 'shellingham', 'typer', 'pygments', 'anyio', 'numpy', 'httpcore', 'pydub', 'gradio-client', 'fsspec', 'pandas', 'fastapi', 'click', 'filelock', 'starlette', 'httpx2', 'markdown-it-py', 'pillow', 'typing-extensions', 'truststore'}",
+      "nivel_max": 7,
+      "profundidade_busca": 7,
+      "fronteira_pico": 7,
+      "consultas": 52,
+      "ciclos": [],
+      "tempo_s": 0.0033448199992562877,
+      "iteracoes": 7,
+      "historico": [
+        {
+          "limite": 1,
+          "cabe": false,
+          "nivel_max": 7
+        },
+        {
+          "limite": 2,
+          "cabe": false,
+          "nivel_max": 7
+        },
+        {
+          "limite": 3,
+          "cabe": false,
+          "nivel_max": 7
+        },
+        {
+          "limite": 4,
+          "cabe": false,
+          "nivel_max": 7
+        },
+        {
+          "limite": 5,
+          "cabe": false,
+          "nivel_max": 7
+        },
+        {
+          "limite": 6,
+          "cabe": false,
+          "nivel_max": 7
+        },
+        {
+          "limite": 7,
+          "cabe": true,
+          "nivel_max": 7
+        }
+      ],
+      "ordem_valida": true,
+      "ondas": 7,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "gradio",
+      "algoritmo": "UCS",
+      "fecho": "set()",
+      "nivel_max": null,
+      "profundidade_busca": null,
+      "fronteira_pico": 887498,
+      "consultas": null,
+      "estados_expandidos": 200001,
+      "orcamento": 200000,
+      "orcamento_estourado": true,
+      "estados_teoricos": 4503599627370496,
+      "ciclos": [],
+      "tempo_s": 14.21994070099936,
+      "ordem_valida": false,
+      "ondas": null,
+      "fecho_completo": false
+    },
+    {
+      "raiz": "poetry",
+      "algoritmo": "BFS",
+      "fecho": "{'urllib3', 'pyproject-hooks', 'cleo', 'idna', 'virtualenv', 'packaging', 'jaraco-context', 'tomlkit', 'cachecontrol', 'requests-toolbelt', 'trove-classifiers', 'fastjsonschema', 'distlib', 'python-discovery', 'cffi', 'pycparser', 'build', 'jeepney', 'msgpack', 'certifi', 'dulwich', 'jaraco-functools', 'keyring', 'platformdirs', 'shellingham', 'charset-normalizer', 'poetry', 'jaraco-classes', 'installer', 'poetry-core', 'cryptography', 'secretstorage', 'more-itertools', 'filelock', 'crashtest', 'requests', 'pbs-installer', 'rapidfuzz', 'pkginfo', 'findpython'}",
+      "nivel_max": 6,
+      "profundidade_busca": 6,
+      "fronteira_pico": 21,
+      "consultas": 40,
+      "ciclos": [],
+      "tempo_s": 0.0005963619987596758,
+      "ordem_valida": true,
+      "ondas": 6,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "poetry",
+      "algoritmo": "DFS",
+      "fecho": "{'urllib3', 'pyproject-hooks', 'cleo', 'idna', 'virtualenv', 'packaging', 'jaraco-context', 'tomlkit', 'cachecontrol', 'requests-toolbelt', 'trove-classifiers', 'fastjsonschema', 'pycparser', 'cffi', 'distlib', 'python-discovery', 'build', 'jeepney', 'msgpack', 'certifi', 'dulwich', 'jaraco-functools', 'keyring', 'charset-normalizer', 'platformdirs', 'shellingham', 'poetry', 'jaraco-classes', 'installer', 'poetry-core', 'cryptography', 'secretstorage', 'more-itertools', 'filelock', 'crashtest', 'requests', 'pbs-installer', 'rapidfuzz', 'pkginfo', 'findpython'}",
+      "nivel_max": null,
+      "profundidade_busca": 6,
+      "fronteira_pico": 6,
+      "consultas": 40,
+      "ciclos": [],
+      "tempo_s": 8.100499871943612e-05,
+      "ordem_valida": true,
+      "ondas": 6,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "poetry",
+      "algoritmo": "IDDFS",
+      "fecho": "{'urllib3', 'pyproject-hooks', 'cleo', 'idna', 'virtualenv', 'packaging', 'jaraco-context', 'tomlkit', 'cachecontrol', 'requests-toolbelt', 'trove-classifiers', 'fastjsonschema', 'distlib', 'python-discovery', 'cffi', 'pycparser', 'build', 'jeepney', 'msgpack', 'certifi', 'dulwich', 'jaraco-functools', 'keyring', 'platformdirs', 'shellingham', 'charset-normalizer', 'poetry', 'jaraco-classes', 'installer', 'poetry-core', 'cryptography', 'secretstorage', 'more-itertools', 'filelock', 'crashtest', 'requests', 'pbs-installer', 'rapidfuzz', 'pkginfo', 'findpython'}",
+      "nivel_max": 6,
+      "profundidade_busca": 6,
+      "fronteira_pico": 6,
+      "consultas": 40,
+      "ciclos": [],
+      "tempo_s": 0.001620502998775919,
+      "iteracoes": 6,
+      "historico": [
+        {
+          "limite": 1,
+          "cabe": false,
+          "nivel_max": 6
+        },
+        {
+          "limite": 2,
+          "cabe": false,
+          "nivel_max": 6
+        },
+        {
+          "limite": 3,
+          "cabe": false,
+          "nivel_max": 6
+        },
+        {
+          "limite": 4,
+          "cabe": false,
+          "nivel_max": 6
+        },
+        {
+          "limite": 5,
+          "cabe": false,
+          "nivel_max": 6
+        },
+        {
+          "limite": 6,
+          "cabe": true,
+          "nivel_max": 6
+        }
+      ],
+      "ordem_valida": true,
+      "ondas": 6,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "poetry",
+      "algoritmo": "UCS",
+      "fecho": "set()",
+      "nivel_max": null,
+      "profundidade_busca": null,
+      "fronteira_pico": 533901,
+      "consultas": null,
+      "estados_expandidos": 200001,
+      "orcamento": 200000,
+      "orcamento_estourado": true,
+      "estados_teoricos": 1099511627776,
+      "ciclos": [],
+      "tempo_s": 10.774732204999964,
+      "ordem_valida": false,
+      "ondas": null,
+      "fecho_completo": false
+    },
+    {
+      "raiz": "fastapi",
+      "algoritmo": "BFS",
+      "fecho": "{'fastapi', 'typing-inspection', 'annotated-types', 'starlette', 'anyio', 'idna', 'pydantic', 'typing-extensions', 'pydantic-core', 'opentelemetry-api', 'annotated-doc'}",
+      "nivel_max": 4,
+      "profundidade_busca": 4,
+      "fronteira_pico": 6,
+      "consultas": 11,
+      "ciclos": [],
+      "tempo_s": 0.00034353099908912554,
+      "ordem_valida": true,
+      "ondas": 4,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "fastapi",
+      "algoritmo": "DFS",
+      "fecho": "{'fastapi', 'typing-inspection', 'annotated-types', 'starlette', 'anyio', 'idna', 'typing-extensions', 'pydantic', 'pydantic-core', 'opentelemetry-api', 'annotated-doc'}",
+      "nivel_max": null,
+      "profundidade_busca": 4,
+      "fronteira_pico": 4,
+      "consultas": 11,
+      "ciclos": [],
+      "tempo_s": 3.478500002529472e-05,
+      "ordem_valida": true,
+      "ondas": 4,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "fastapi",
+      "algoritmo": "IDDFS",
+      "fecho": "{'fastapi', 'typing-inspection', 'annotated-types', 'starlette', 'anyio', 'idna', 'pydantic', 'typing-extensions', 'pydantic-core', 'opentelemetry-api', 'annotated-doc'}",
+      "nivel_max": 4,
+      "profundidade_busca": 4,
+      "fronteira_pico": 4,
+      "consultas": 11,
+      "ciclos": [],
+      "tempo_s": 0.0005640489998768317,
+      "iteracoes": 4,
+      "historico": [
+        {
+          "limite": 1,
+          "cabe": false,
+          "nivel_max": 4
+        },
+        {
+          "limite": 2,
+          "cabe": false,
+          "nivel_max": 4
+        },
+        {
+          "limite": 3,
+          "cabe": false,
+          "nivel_max": 4
+        },
+        {
+          "limite": 4,
+          "cabe": true,
+          "nivel_max": 4
+        }
+      ],
+      "ordem_valida": true,
+      "ondas": 4,
+      "fecho_completo": true
+    },
+    {
+      "raiz": "fastapi",
+      "algoritmo": "UCS",
+      "fecho": "{'fastapi', 'typing-inspection', 'annotated-types', 'starlette', 'anyio', 'idna', 'pydantic', 'typing-extensions', 'pydantic-core', 'opentelemetry-api', 'annotated-doc'}",
+      "nivel_max": null,
+      "profundidade_busca": 11,
+      "fronteira_pico": 73,
+      "consultas": 11,
+      "estados_expandidos": 319,
+      "orcamento": 200000,
+      "orcamento_estourado": false,
+      "estados_teoricos": 2048,
+      "ciclos": [],
+      "tempo_s": 0.003792436000367161,
+      "ordem_valida": true,
+      "ondas": 4,
+      "fecho_completo": true
+    }
+  ],
+  "escala": [
+    {
+      "raiz": "jupyterlab",
+      "nos": 80,
+      "arestas": 139,
+      "ondas_minimas": 10,
+      "nivel_bfs": 6,
+      "ciclos": 0
+    },
+    {
+      "raiz": "notebook",
+      "nos": 81,
+      "arestas": 145,
+      "ondas_minimas": 11,
+      "nivel_bfs": 6,
+      "ciclos": 0
+    },
+    {
+      "raiz": "gradio",
+      "nos": 52,
+      "arestas": 86,
+      "ondas_minimas": 7,
+      "nivel_bfs": 5,
+      "ciclos": 0
+    },
+    {
+      "raiz": "poetry",
+      "nos": 40,
+      "arestas": 51,
+      "ondas_minimas": 6,
+      "nivel_bfs": 6,
+      "ciclos": 0
+    },
+    {
+      "raiz": "fastapi",
+      "nos": 11,
+      "arestas": 17,
+      "ondas_minimas": 4,
+      "nivel_bfs": 4,
+      "ciclos": 0
+    }
+  ],
+  "onda_por_pacote": {
+    "async-lru": 1,
+    "packaging": 1,
+    "tornado": 1,
+    "traitlets": 1,
+    "babel": 1,
+    "json5": 1,
+    "certifi": 1,
+    "charset-normalizer": 1,
+    "idna": 1,
+    "urllib3": 1,
+    "attrs": 1,
+    "rpds-py": 1,
+    "typing-extensions": 1,
+    "prometheus-client": 1,
+    "pyzmq": 1,
+    "send2trash": 1,
+    "websocket-client": 1,
+    "ptyprocess": 1,
+    "fastjsonschema": 1,
+    "defusedxml": 1,
+    "jupyterlab-pygments": 1,
+    "markupsafe": 1,
+    "mistune": 1,
+    "pandocfilters": 1,
+    "pygments": 1,
+    "webencodings": 1,
+    "soupsieve": 1,
+    "python-json-logger": 1,
+    "pyyaml": 1,
+    "rfc3986-validator": 1,
+    "six": 1,
+    "pycparser": 1,
+    "platformdirs": 1,
+    "comm": 1,
+    "debugpy": 1,
+    "nest-asyncio2": 1,
+    "psutil": 1,
+    "asttokens": 1,
+    "executing": 1,
+    "pure-eval": 1,
+    "wcwidth": 1,
+    "parso": 1,
+    "h11": 1,
+    "jupyterlab": 10,
+    "jupyterlab-server": 9,
+    "jupyter-server": 8,
+    "nbconvert": 7,
+    "jupyter-events": 5,
+    "ipykernel": 4,
+    "terminado": 2,
+    "jupyter-client": 3,
+    "nbformat": 5,
+    "nbclient": 6,
+    "jupyter-core": 2,
+    "jupyter-builder": 3,
+    "matplotlib-inline": 2,
+    "ipython": 3,
+    "requests": 2,
+    "httpx": 3,
+    "httpcore": 2,
+    "anyio": 2,
+    "jsonschema": 4,
+    "referencing": 2,
+    "beautifulsoup4": 2,
+    "pexpect": 2,
+    "jinja2": 2,
+    "ipython-pygments-lexers": 2,
+    "bleach": 2,
+    "rfc3339-validator": 2,
+    "python-dateutil": 2,
+    "cffi": 2,
+    "stack-data": 2,
+    "prompt-toolkit": 2,
+    "jedi": 2,
+    "jsonschema-specifications": 3,
+    "jupyter-server-terminals": 3,
+    "argon2-cffi-bindings": 3,
+    "argon2-cffi": 4,
+    "notebook-shim": 9,
+    "jupyter-lsp": 9
+  }
+}
