@@ -66,7 +66,6 @@ from __future__ import annotations
 
 import csv
 import json
-import math
 import os
 import random
 import statistics
@@ -89,7 +88,10 @@ DIR_RESULTADOS = os.path.join(BASE, "results")
 
 # Caminho do dataset, o mesmo dos projetos 3 e 4.
 ARQUIVO_DATASET = os.path.join(DIR_DADOS, "spotify_tracks.json")
-URL_DATASET_NUVEM = ""
+
+# Link publico do dataset na nuvem, para o professor baixar o arquivo caso a
+# copia local nao acompanhe a entrega.
+URL_DATASET_NUVEM = "https://github.com/GdevAlves/AI-Portfolio/blob/main/parte_II/data/spotify_tracks.json"
 
 # Semente para tornar o experimento reproduzivel.
 SEMENTE = 42

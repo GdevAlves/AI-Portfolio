@@ -94,7 +94,7 @@ ARQUIVO_DATASET = os.path.join(DIR_DADOS, "spotify_tracks.json")
 
 # Link publico do dataset na nuvem, para o professor baixar o arquivo caso a
 # copia local nao acompanhe a entrega.
-URL_DATASET_NUVEM = ""
+URL_DATASET_NUVEM = "https://github.com/GdevAlves/AI-Portfolio/blob/main/parte_II/data/spotify_tracks.json"
 
 # Semente para tornar o experimento reproduzivel.
 SEMENTE = 42

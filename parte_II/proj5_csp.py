@@ -78,6 +78,10 @@ DIR_RESULTADOS = os.path.join(BASE, "results")
 # Arquivo com as turmas reais, no formato de data/grade_fga_template.csv.
 ARQUIVO_TURMAS = os.path.join(DIR_DADOS, "grade_fga.csv")
 
+# Link publico do dataset na nuvem, para o professor baixar o arquivo caso a
+# copia local nao acompanhe a entrega.
+URL_DATASET_NUVEM = "https://github.com/GdevAlves/AI-Portfolio/blob/main/parte_II/data/grade_fga.csv"
+
 # Semente para as instancias sinteticas do experimento de escala.
 SEMENTE = 42
 
@@ -177,9 +181,9 @@ def carregar_turmas(caminho: str) -> list[Turma]:
     """
     if not os.path.exists(caminho):
         raise FileNotFoundError(
-            "Arquivo de turmas nao encontrado em " + caminho + ". Exporte as "
-            "turmas do SIGAA no formato de data/grade_fga_template.csv e "
-            "salve como data/grade_fga.csv."
+            "Arquivo de turmas nao encontrado em " + caminho + ". Baixe o "
+            "arquivo grade_fga.csv do link " + (URL_DATASET_NUVEM or "indicado no relatorio")
+            + " e coloque-o na pasta data/."
         )
 
     turmas: list[Turma] = []
