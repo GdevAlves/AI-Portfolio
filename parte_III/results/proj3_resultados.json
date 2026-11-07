@@ -1,0 +1,42 @@
+[
+  {
+    "experimento": "Pouco ruido",
+    "sigma": 1.0,
+    "rmse_medida": 0.766005452790101,
+    "rmse_filtro": 0.5216304559447991,
+    "mae_medida": 0.6241988524069029,
+    "mae_filtro": 0.4176188516441185,
+    "decisoes_incorretas_medida": 0,
+    "decisoes_incorretas_filtro": 0
+  },
+  {
+    "experimento": "Muito ruido",
+    "sigma": 8.0,
+    "rmse_medida": 6.1280436223208135,
+    "rmse_filtro": 2.7148960306274494,
+    "mae_medida": 4.9935908192552265,
+    "mae_filtro": 2.1297845276174887,
+    "decisoes_incorretas_medida": 1,
+    "decisoes_incorretas_filtro": 0
+  },
+  {
+    "experimento": "Aproximacao",
+    "sigma": 3.0,
+    "rmse_medida": 2.2980163583703046,
+    "rmse_filtro": 1.2469260599018457,
+    "mae_medida": 1.8725965572207095,
+    "mae_filtro": 0.9963936807413245,
+    "decisoes_incorretas_medida": 1,
+    "decisoes_incorretas_filtro": 0
+  },
+  {
+    "experimento": "Picos",
+    "sigma": 2.0,
+    "rmse_medida": 8.577373125073828,
+    "rmse_filtro": 5.341347218324604,
+    "mae_medida": 3.4704312203945267,
+    "mae_filtro": 3.535996231821766,
+    "decisoes_incorretas_medida": 4,
+    "decisoes_incorretas_filtro": 1
+  }
+]

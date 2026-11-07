@@ -1,0 +1,8 @@
+cenario;log_verossimilhanca;log_prob_caminho;caminho
+1. Funcionamento normal;-4.4476;-4.6886;Normal->Normal->Normal->Normal->Normal->Normal->Normal->Normal->Normal->Normal->Normal->Normal
+2. Degradacao gradual;-12.4905;-15.6129;Normal->Normal->Normal->Normal->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste
+3. Falha;-23.8347;-27.7338;Falha->Falha->Falha->Falha->Falha->Falha->Falha->Falha->Falha->Falha->Falha->Falha
+4. Transicoes (comparacao) [padrao];-12.4905;-15.6129;Normal->Normal->Normal->Normal->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste
+4. Transicoes (comparacao) [rigida];-12.8945;-14.8364;Normal->Normal->Normal->Normal->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste
+4. Transicoes (comparacao) [progressiva];-11.8894;-15.5280;Normal->Normal->Normal->Normal->Superaquecimento->Superaquecimento->Superaquecimento->Superaquecimento->Falha->Falha->Falha->Falha
+5. Observacoes ruidosas;-20.6233;-24.6185;Normal->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste->Desgaste

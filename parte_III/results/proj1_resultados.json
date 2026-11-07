@@ -1,0 +1,157 @@
+{
+  "cenarios": [
+    {
+      "cenario": "1. Operacao normal (sem evidencia)",
+      "evidencia": {},
+      "p_falha_yes": 0.593482083168317,
+      "p_falha_prior": 0.593482083168317,
+      "p_cpu_normal": 0.1415279207920792,
+      "p_cpu_minor": 0.26602740594059404,
+      "p_cpu_serious": 0.5924446732673267
+    },
+    {
+      "cenario": "2. CPU fisica saturada",
+      "evidencia": {
+        "host-CPU-usage": "Yes"
+      },
+      "p_falha_yes": 0.6026078217821782,
+      "p_falha_prior": 0.593482083168317,
+      "p_cpu_normal": 0.13595445544554458,
+      "p_cpu_minor": 0.2597584158415842,
+      "p_cpu_serious": 0.6042871287128713
+    },
+    {
+      "cenario": "3. VM consumindo CPU",
+      "evidencia": {
+        "VM-CPU-usage": "Yes"
+      },
+      "p_falha_yes": 0.6145240000000001,
+      "p_falha_prior": 0.593482083168317,
+      "p_cpu_normal": 0.12592,
+      "p_cpu_minor": 0.25492000000000004,
+      "p_cpu_serious": 0.61916
+    },
+    {
+      "cenario": "4. VM aguardando escalonar",
+      "evidencia": {
+        "VM-CPU-Ready-Time": "Yes"
+      },
+      "p_falha_yes": 0.6181480000000001,
+      "p_falha_prior": 0.593482083168317,
+      "p_cpu_normal": 0.17904,
+      "p_cpu_minor": 0.18524000000000002,
+      "p_cpu_serious": 0.6357200000000001
+    },
+    {
+      "cenario": "5. Saturação critica (todas)",
+      "evidencia": {
+        "host-CPU-usage": "Yes",
+        "VM-CPU-usage": "Yes",
+        "VM-CPU-Ready-Time": "Yes"
+      },
+      "p_falha_yes": 0.5895,
+      "p_falha_prior": 0.593482083168317,
+      "p_cpu_normal": 0.11000000000000001,
+      "p_cpu_minor": 0.31000000000000005,
+      "p_cpu_serious": 0.5800000000000001
+    },
+    {
+      "cenario": "6. Evidencia negativa",
+      "evidencia": {
+        "host-CPU-usage": "No"
+      },
+      "p_falha_yes": 0.52656,
+      "p_falha_prior": 0.593482083168317,
+      "p_cpu_normal": 0.1824,
+      "p_cpu_minor": 0.312,
+      "p_cpu_serious": 0.5055999999999999
+    },
+    {
+      "cenario": "7. CPU classificada como Serious",
+      "evidencia": {
+        "CPU-utilization": "Serious"
+      },
+      "p_falha_yes": 0.9000000000000001,
+      "p_falha_prior": 0.593482083168317,
+      "p_cpu_normal": 0.0,
+      "p_cpu_minor": 0.0,
+      "p_cpu_serious": 1.0
+    },
+    {
+      "cenario": "8. CPU classificada como Normal",
+      "evidencia": {
+        "CPU-utilization": "Normal"
+      },
+      "p_falha_yes": 0.05,
+      "p_falha_prior": 0.593482083168317,
+      "p_cpu_normal": 1.0,
+      "p_cpu_minor": 0.0,
+      "p_cpu_serious": 0.0
+    }
+  ],
+  "sensibilidade": {
+    "p_falha_dado_serious": [
+      0.3,
+      0.37,
+      0.43999999999999995,
+      0.51,
+      0.58,
+      0.6499999999999999,
+      0.72,
+      0.7899999999999999,
+      0.8599999999999999,
+      0.9299999999999999,
+      1.0
+    ],
+    "sem_evidencia": [
+      0.23801527920792082,
+      0.2794864063366337,
+      0.3209575334653465,
+      0.3624286605940594,
+      0.40389978772277224,
+      0.4453709148514851,
+      0.48684204198019804,
+      0.5283131691089109,
+      0.5697842962376237,
+      0.6112554233663365,
+      0.6527265504950495
+    ],
+    "com_evidencia": [
+      0.3,
+      0.37,
+      0.43999999999999995,
+      0.51,
+      0.58,
+      0.6499999999999999,
+      0.72,
+      0.7899999999999999,
+      0.8599999999999998,
+      0.9299999999999999,
+      1.0
+    ]
+  },
+  "diagnostico": {
+    "evidencia": {
+      "host-server-fault": "Yes"
+    },
+    "causas": {
+      "host-CPU-usage": {
+        "No": 0.1065,
+        "Yes": 0.8935
+      },
+      "VM-CPU-usage": {
+        "No": 0.6894,
+        "Yes": 0.3106
+      },
+      "VM-CPU-Ready-Time": {
+        "No": 0.6355,
+        "Yes": 0.3645
+      },
+      "CPU-utilization": {
+        "Normal": 0.0119,
+        "Minor": 0.0896,
+        "Serious": 0.8984
+      }
+    }
+  }
+}

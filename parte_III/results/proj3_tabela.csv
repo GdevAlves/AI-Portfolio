@@ -1,0 +1,5 @@
+experimento;sigma;rmse_medida;rmse_filtro;mae_medida;mae_filtro;dec_incorretas_medida;dec_incorretas_filtro
+Pouco ruido;1.0;0.7660;0.5216;0.6242;0.4176;0;0
+Muito ruido;8.0;6.1280;2.7149;4.9936;2.1298;1;0
+Aproximacao;3.0;2.2980;1.2469;1.8726;0.9964;1;0
+Picos;2.0;8.5774;5.3413;3.4704;3.5360;4;1

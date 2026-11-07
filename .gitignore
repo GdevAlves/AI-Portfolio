@@ -228,3 +228,8 @@ IA_I_planoDeEnsino.pdf
 
 # Cache bruto da API do PyPI, regeneravel com rede
 parte_II/data/pypi/
+
+# Arquivos de rascunho, nao fazem parte da entrega
+*[Dd]rafting*.md
+
+
